@@ -1,0 +1,30 @@
+/* Footer.css */
+
+/* General Footer Styles */
+.footer {
+    display: flex;
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
+    padding: 1rem; /* Adjust padding as needed */
+    margin: 1rem 0;
+    background-color: #00bc8c; /* Match the navbar color */
+    z-index: 10;
+    color: #ffffff; /* Text color for better contrast */
+    text-align: center; /* Center text alignment */
+    min-height: 70px; /* Ensure a minimum height for the footer */
+}
+
+/* Flex container styling */
+.footer-content {
+    display: flex; /* Use flex layout */
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Align items vertically */
+    gap: 1rem; /* Space between items */
+    flex-wrap: wrap; /* Allow wrapping if needed */
+}
+
+/* Text and link styles */
+.footer-text {
+    color: #ffffff; /* Text color */
+    margin: 0; /* Remove default margin */
+}
